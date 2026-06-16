@@ -15,8 +15,8 @@ export function JourneyTimeline() {
   return (
     <section ref={ref} className="relative py-24 px-4">
       <div className="max-w-3xl mx-auto text-center mb-14">
-        <p className="font-hand text-3xl text-[color:var(--sage)]">our story so far</p>
-        <h2 className="font-display text-4xl md:text-6xl mt-2">Us, over time 🌿</h2>
+        <p className="font-hand text-2xl sm:text-3xl text-[color:var(--sage)]">our story so far</p>
+        <h2 className="font-display text-3xl sm:text-4xl md:text-6xl mt-2">Us, over time 🌿</h2>
       </div>
 
       <div className="relative max-w-3xl mx-auto pl-4 sm:pl-6 md:pl-12">
