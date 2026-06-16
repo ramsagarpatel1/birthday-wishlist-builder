@@ -59,12 +59,12 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --color-lily-pink: var(--lily-pink);
-  --color-sage: var(--sage);
-  --color-dusty-rose: var(--dusty-rose);
-  --color-soft-gold: var(--soft-gold);
-  --color-deep-text: var(--deep-text);
-  --color-accent-white: var(--accent-white);
+  --color-sky: var(--sky);
+  --color-sky-deep: var(--sky-deep);
+  --color-sky-glow: var(--sky-glow);
+  --color-cream: var(--cream);
+  --color-blush: var(--blush);
+  --color-ink: var(--ink);
   --font-display: "Playfair Display", serif;
   --font-fredoka: "Fredoka", sans-serif;
   --font-body: "Quicksand", sans-serif;
@@ -73,33 +73,33 @@
 
 :root {
   --radius: 1rem;
-  /* Birthday palette */
-  --lily-pink: oklch(0.79 0.09 12);        /* #F4A7B9 */
-  --sage: oklch(0.68 0.07 135);            /* #87A878 */
-  --dusty-rose: oklch(0.74 0.08 18);       /* #E8A0A0 */
-  --soft-gold: oklch(0.83 0.13 85);        /* #F2C45A */
-  --deep-text: oklch(0.28 0.03 25);        /* #3D2C2C */
-  --accent-white: oklch(0.99 0.005 80);    /* #FFFDF9 */
+  /* Simi palette — sky blue, cream, soft pink */
+  --sky: oklch(0.82 0.07 230);             /* soft sky blue */
+  --sky-deep: oklch(0.62 0.12 240);        /* deeper sky */
+  --sky-glow: oklch(0.92 0.05 220);        /* misty glow */
+  --cream: oklch(0.985 0.015 90);          /* soft cream */
+  --blush: oklch(0.88 0.05 15);            /* light pink */
+  --ink: oklch(0.28 0.04 250);             /* deep navy ink */
 
-  --background: oklch(0.97 0.015 75);      /* #FDF8F2 cream */
-  --foreground: var(--deep-text);
-  --card: var(--accent-white);
-  --card-foreground: var(--deep-text);
-  --popover: var(--accent-white);
-  --popover-foreground: var(--deep-text);
-  --primary: var(--lily-pink);
+  --background: var(--cream);
+  --foreground: var(--ink);
+  --card: oklch(1 0 0);
+  --card-foreground: var(--ink);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--ink);
+  --primary: var(--sky-deep);
   --primary-foreground: oklch(0.99 0.005 80);
-  --secondary: var(--sage);
-  --secondary-foreground: var(--accent-white);
-  --muted: oklch(0.94 0.02 60);
-  --muted-foreground: oklch(0.45 0.03 25);
-  --accent: var(--soft-gold);
-  --accent-foreground: var(--deep-text);
+  --secondary: var(--sky);
+  --secondary-foreground: var(--ink);
+  --muted: oklch(0.95 0.015 230);
+  --muted-foreground: oklch(0.5 0.03 240);
+  --accent: var(--blush);
+  --accent-foreground: var(--ink);
   --destructive: oklch(0.6 0.22 25);
   --destructive-foreground: oklch(0.99 0.005 80);
-  --border: oklch(0.88 0.03 50);
-  --input: oklch(0.88 0.03 50);
-  --ring: var(--lily-pink);
+  --border: oklch(0.88 0.03 230);
+  --input: oklch(0.88 0.03 230);
+  --ring: var(--sky-deep);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
