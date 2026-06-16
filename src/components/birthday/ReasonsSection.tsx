@@ -35,18 +35,18 @@ export function ReasonsSection() {
         {REASONS.map((r, i) => (
           <li
             key={i}
-            className={`reveal-on-scroll paint-card ${TONES[i % TONES.length]} p-5 md:p-6 flex items-start gap-4 ${
+            className={`reveal-on-scroll paint-card ${TONES[i % TONES.length]} p-4 sm:p-5 md:p-6 flex items-start gap-3 sm:gap-4 ${
               i % 2 === 0 ? "md:ml-0 md:mr-16" : "md:ml-16 md:mr-0"
             }`}
             style={{ animationDelay: `${(i % 5) * 60}ms` }}
           >
-            <span className="font-display italic text-3xl md:text-4xl text-[color:var(--lily-pink)] leading-none shrink-0 w-10">
+            <span className="font-display italic text-2xl sm:text-3xl md:text-4xl text-[color:var(--lily-pink)] leading-none shrink-0 w-8 sm:w-10">
               {String(i + 1).padStart(2, "0")}
             </span>
-            <p className="font-body text-lg md:text-xl text-[color:var(--deep-text)]/85 pt-1">
+            <p className="font-body text-base sm:text-lg md:text-xl text-[color:var(--deep-text)]/85 pt-1 min-w-0">
               {r}
             </p>
-            <LilySprig size={32} className="shrink-0 ml-auto opacity-80" />
+            <LilySprig size={28} className="shrink-0 ml-auto opacity-80 hidden sm:block" />
           </li>
         ))}
       </ol>
