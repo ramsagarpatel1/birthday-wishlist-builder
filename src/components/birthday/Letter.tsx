@@ -6,8 +6,8 @@ export function Letter() {
   return (
     <section ref={ref} className="relative py-24 px-4">
       <div className="max-w-3xl mx-auto text-center mb-12">
-        <p className="font-hand text-3xl text-[color:var(--sage)]">a note, just for you</p>
-        <h2 className="font-display text-4xl md:text-6xl mt-2">A note for you 💌</h2>
+        <p className="font-hand text-2xl sm:text-3xl text-[color:var(--sage)]">a note, just for you</p>
+        <h2 className="font-display text-3xl sm:text-4xl md:text-6xl mt-2">A note for you 💌</h2>
       </div>
 
       <div
