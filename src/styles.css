@@ -59,12 +59,12 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --color-lily-pink: var(--lily-pink);
-  --color-sage: var(--sage);
-  --color-dusty-rose: var(--dusty-rose);
-  --color-soft-gold: var(--soft-gold);
-  --color-deep-text: var(--deep-text);
-  --color-accent-white: var(--accent-white);
+  --color-sky: var(--sky);
+  --color-sky-deep: var(--sky-deep);
+  --color-sky-glow: var(--sky-glow);
+  --color-cream: var(--cream);
+  --color-blush: var(--blush);
+  --color-ink: var(--ink);
   --font-display: "Playfair Display", serif;
   --font-fredoka: "Fredoka", sans-serif;
   --font-body: "Quicksand", sans-serif;
@@ -73,33 +73,33 @@
 
 :root {
   --radius: 1rem;
-  /* Birthday palette */
-  --lily-pink: oklch(0.79 0.09 12);        /* #F4A7B9 */
-  --sage: oklch(0.68 0.07 135);            /* #87A878 */
-  --dusty-rose: oklch(0.74 0.08 18);       /* #E8A0A0 */
-  --soft-gold: oklch(0.83 0.13 85);        /* #F2C45A */
-  --deep-text: oklch(0.28 0.03 25);        /* #3D2C2C */
-  --accent-white: oklch(0.99 0.005 80);    /* #FFFDF9 */
+  /* Simi palette — sky blue, cream, soft pink */
+  --sky: oklch(0.82 0.07 230);             /* soft sky blue */
+  --sky-deep: oklch(0.62 0.12 240);        /* deeper sky */
+  --sky-glow: oklch(0.92 0.05 220);        /* misty glow */
+  --cream: oklch(0.985 0.015 90);          /* soft cream */
+  --blush: oklch(0.88 0.05 15);            /* light pink */
+  --ink: oklch(0.28 0.04 250);             /* deep navy ink */
 
-  --background: oklch(0.97 0.015 75);      /* #FDF8F2 cream */
-  --foreground: var(--deep-text);
-  --card: var(--accent-white);
-  --card-foreground: var(--deep-text);
-  --popover: var(--accent-white);
-  --popover-foreground: var(--deep-text);
-  --primary: var(--lily-pink);
+  --background: var(--cream);
+  --foreground: var(--ink);
+  --card: oklch(1 0 0);
+  --card-foreground: var(--ink);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--ink);
+  --primary: var(--sky-deep);
   --primary-foreground: oklch(0.99 0.005 80);
-  --secondary: var(--sage);
-  --secondary-foreground: var(--accent-white);
-  --muted: oklch(0.94 0.02 60);
-  --muted-foreground: oklch(0.45 0.03 25);
-  --accent: var(--soft-gold);
-  --accent-foreground: var(--deep-text);
+  --secondary: var(--sky);
+  --secondary-foreground: var(--ink);
+  --muted: oklch(0.95 0.015 230);
+  --muted-foreground: oklch(0.5 0.03 240);
+  --accent: var(--blush);
+  --accent-foreground: var(--ink);
   --destructive: oklch(0.6 0.22 25);
   --destructive-foreground: oklch(0.99 0.005 80);
-  --border: oklch(0.88 0.03 50);
-  --input: oklch(0.88 0.03 50);
-  --ring: var(--lily-pink);
+  --border: oklch(0.88 0.03 230);
+  --input: oklch(0.88 0.03 230);
+  --ring: var(--sky-deep);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -160,15 +160,15 @@
     color: var(--color-foreground);
     font-family: var(--font-body);
     background-image:
-      radial-gradient(at 20% 10%, color-mix(in oklab, var(--lily-pink) 12%, transparent) 0%, transparent 45%),
-      radial-gradient(at 85% 30%, color-mix(in oklab, var(--soft-gold) 10%, transparent) 0%, transparent 50%),
-      radial-gradient(at 50% 90%, color-mix(in oklab, var(--sage) 10%, transparent) 0%, transparent 55%);
+      radial-gradient(at 20% 10%, color-mix(in oklab, var(--sky) 22%, transparent) 0%, transparent 50%),
+      radial-gradient(at 85% 25%, color-mix(in oklab, var(--blush) 18%, transparent) 0%, transparent 55%),
+      radial-gradient(at 50% 95%, color-mix(in oklab, var(--sky-glow) 30%, transparent) 0%, transparent 60%);
     background-attachment: fixed;
   }
 
   h1, h2, h3, h4 {
     font-family: var(--font-display);
-    color: var(--deep-text);
+    color: var(--ink);
   }
 }
 
@@ -178,68 +178,44 @@
   .font-hand    { font-family: var(--font-hand); }
   .font-body    { font-family: var(--font-body); }
 
-  /* Painted brush-stroke card edges via SVG-feathered border */
-  .paint-card {
-    background: var(--accent-white);
-    border-radius: 22px 28px 24px 30px / 30px 24px 28px 22px;
+  /* Glassmorphism */
+  .glass-card {
+    background: color-mix(in oklab, white 60%, transparent);
+    backdrop-filter: blur(18px) saturate(140%);
+    border: 1px solid color-mix(in oklab, white 60%, transparent);
     box-shadow:
-      0 1px 0 color-mix(in oklab, var(--lily-pink) 20%, transparent),
-      0 18px 40px -20px color-mix(in oklab, var(--deep-text) 25%, transparent),
-      inset 0 0 0 1px color-mix(in oklab, var(--lily-pink) 18%, transparent);
+      0 20px 50px -25px color-mix(in oklab, var(--sky-deep) 35%, transparent),
+      inset 0 1px 0 rgba(255,255,255,0.6);
+    border-radius: 1.5rem;
   }
-  .paint-card-rose {
-    background: color-mix(in oklab, var(--dusty-rose) 14%, var(--accent-white));
-  }
-  .paint-card-sage {
-    background: color-mix(in oklab, var(--sage) 12%, var(--accent-white));
-  }
-  .paint-card-gold {
-    background: color-mix(in oklab, var(--soft-gold) 14%, var(--accent-white));
-  }
-
-  /* Watercolor edged frame for photos */
-  .watercolor-frame {
-    border-radius: 18px 26px 20px 28px / 26px 20px 28px 18px;
-    padding: 10px;
-    background: var(--accent-white);
+  .glass-strong {
+    background: color-mix(in oklab, white 75%, transparent);
+    backdrop-filter: blur(24px) saturate(160%);
+    border: 1px solid color-mix(in oklab, var(--sky) 35%, transparent);
     box-shadow:
-      0 22px 50px -28px color-mix(in oklab, var(--deep-text) 35%, transparent),
-      inset 0 0 0 1px color-mix(in oklab, var(--lily-pink) 18%, transparent);
-    transform: rotate(var(--tilt, -0.8deg));
-    transition: transform 350ms ease;
+      0 30px 70px -30px color-mix(in oklab, var(--sky-deep) 45%, transparent);
+    border-radius: 1.5rem;
   }
-  .watercolor-frame:hover { transform: rotate(0deg) scale(1.02); }
-  .watercolor-frame > * {
-    border-radius: 14px 22px 16px 24px / 22px 16px 24px 14px;
-    overflow: hidden;
-    display: block;
+  .dark .glass-card, .dark .glass-strong {
+    background: color-mix(in oklab, var(--ink) 55%, transparent);
+    border-color: color-mix(in oklab, var(--sky) 25%, transparent);
   }
-
+  .text-romance {
+    background: linear-gradient(135deg, var(--sky-deep), var(--blush));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
   .parchment {
     background:
       repeating-linear-gradient(
-        transparent 0,
-        transparent 38px,
-        color-mix(in oklab, var(--lily-pink) 15%, transparent) 38px,
-        color-mix(in oklab, var(--lily-pink) 15%, transparent) 39px
+        transparent 0, transparent 38px,
+        color-mix(in oklab, var(--sky) 18%, transparent) 38px,
+        color-mix(in oklab, var(--sky) 18%, transparent) 39px
       ),
-      #FDF6E3;
-    border-radius: 20px 28px 22px 30px / 28px 22px 30px 20px;
-    box-shadow:
-      0 24px 60px -30px color-mix(in oklab, var(--deep-text) 40%, transparent),
-      inset 0 0 0 1px color-mix(in oklab, var(--soft-gold) 30%, transparent);
-  }
-
-  .vine-divider {
-    height: 56px;
-    background:
-      radial-gradient(circle at 20% 50%, var(--sage) 0 4px, transparent 5px),
-      radial-gradient(circle at 50% 50%, var(--lily-pink) 0 5px, transparent 6px),
-      radial-gradient(circle at 80% 50%, var(--sage) 0 4px, transparent 5px);
-  }
-
-  .text-shadow-soft {
-    text-shadow: 0 2px 18px color-mix(in oklab, var(--lily-pink) 40%, transparent);
+      #FDFBF5;
+    border-radius: 1.25rem;
+    box-shadow: 0 30px 60px -30px color-mix(in oklab, var(--sky-deep) 35%, transparent);
   }
 
   @keyframes float-soft {
@@ -248,29 +224,14 @@
   }
   .animate-float { animation: float-soft 7s ease-in-out infinite; }
 
-  @keyframes drift {
-    0% { transform: translate(0,0) rotate(0deg); }
-    100% { transform: translate(20px,-30px) rotate(6deg); }
-  }
-
-  @keyframes flicker {
-    0%, 100% { transform: translateX(-50%) scaleY(1) scaleX(1); opacity: 1; }
-    25% { transform: translateX(-50%) scaleY(1.08) scaleX(0.95); opacity: 0.92; }
-    50% { transform: translateX(-50%) scaleY(0.95) scaleX(1.05); opacity: 1; }
-    75% { transform: translateX(-50%) scaleY(1.05) scaleX(0.97); opacity: 0.95; }
-  }
-  .flame { animation: flicker 0.6s ease-in-out infinite; transform-origin: bottom center; }
-
   @keyframes petal-fall {
     0% { transform: translateY(-10vh) translateX(0) rotate(0deg); opacity: 0; }
     10% { opacity: 1; }
     100% { transform: translateY(110vh) translateX(60px) rotate(360deg); opacity: 0; }
   }
-
-  @keyframes reveal-up {
-    from { opacity: 0; transform: translateY(28px); }
-    to { opacity: 1; transform: translateY(0); }
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.2; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.1); }
   }
-  .reveal-on-scroll { opacity: 0; }
-  .reveal-on-scroll.is-visible { animation: reveal-up 0.9s cubic-bezier(.2,.7,.2,1) forwards; }
+  .twinkle { animation: twinkle 3s ease-in-out infinite; }
 }
