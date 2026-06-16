@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   const [opened, setOpened] = useState(false);
   return (
-    <main className="relative">
+    <main className="relative overflow-x-clip">
       {!opened && <GiftBoxGate onOpen={() => setOpened(true)} />}
 
       <HeroCountdown birthday={SIMI_BIRTHDAY} />

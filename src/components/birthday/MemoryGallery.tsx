@@ -40,8 +40,8 @@ export function MemoryGallery() {
       <LilyIllustration size={120} rotate={25} className="absolute bottom-10 right-2 md:right-10 opacity-50" />
 
       <div className="max-w-3xl mx-auto text-center mb-14">
-        <p className="font-hand text-3xl text-[color:var(--sage)]">a little album</p>
-        <h2 className="font-display text-4xl md:text-6xl mt-2">Moments with you 📸</h2>
+        <p className="font-hand text-2xl sm:text-3xl text-[color:var(--sage)]">a little album</p>
+        <h2 className="font-display text-3xl sm:text-4xl md:text-6xl mt-2">Moments with you 📸</h2>
       </div>
 
       <div className="max-w-6xl mx-auto columns-1 sm:columns-2 lg:columns-3 gap-6">
