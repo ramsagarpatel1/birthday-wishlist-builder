@@ -11,13 +11,13 @@ export function Letter() {
       </div>
 
       <div
-        className="reveal-on-scroll parchment max-w-2xl mx-auto p-10 md:p-14"
+        className="reveal-on-scroll parchment max-w-2xl mx-auto p-6 sm:p-10 md:p-14"
         style={{ transform: "rotate(-1.2deg)" }}
       >
-        <p className="font-hand text-3xl md:text-4xl text-[color:var(--deep-text)] mb-6">
+        <p className="font-hand text-2xl sm:text-3xl md:text-4xl text-[color:var(--deep-text)] mb-6">
           Dear Simi,
         </p>
-        <div className="font-hand text-2xl md:text-3xl text-[color:var(--deep-text)]/90 leading-[1.5] space-y-5">
+        <div className="font-hand text-xl sm:text-2xl md:text-3xl text-[color:var(--deep-text)]/90 leading-[1.5] space-y-5">
           <p>
             Where do I even begin. You walked into my life like a lily quietly
             opening — soft, certain, impossible to look away from.
