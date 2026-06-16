@@ -74,7 +74,7 @@ export function CandleSection() {
         </p>
       </div>
 
-      <div className="reveal-on-scroll paint-card paint-card-gold max-w-2xl mx-auto p-10 flex justify-center items-end gap-5 md:gap-8">
+      <div className="reveal-on-scroll paint-card paint-card-gold max-w-2xl mx-auto p-5 sm:p-8 md:p-10 flex justify-center items-end gap-3 sm:gap-5 md:gap-8">
         {lit.map((l, i) => (
           <Candle key={i} idx={i} lit={l} onBlow={() => blow(i)} />
         ))}
