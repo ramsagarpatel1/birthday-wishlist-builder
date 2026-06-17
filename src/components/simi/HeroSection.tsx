@@ -36,7 +36,7 @@ export function HeroSection({ onEnter, onLilyTap }: { onEnter: () => void; onLil
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="font-hand text-2xl sm:text-3xl text-[var(--sky-deep)] mb-3"
+          className="font-hand text-2xl sm:text-3xl text-[var(--ink)] mb-3"
         >
           for the one and only
         </motion.p>
@@ -44,7 +44,8 @@ export function HeroSection({ onEnter, onLilyTap }: { onEnter: () => void; onLil
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="font-display text-4xl sm:text-6xl md:text-7xl leading-tight text-romance"
+          className="font-display text-4xl sm:text-6xl md:text-7xl leading-tight bg-gradient-to-r from-[var(--sky-deep)] to-[var(--sky)] bg-clip-text text-transparent"
+          style={{ filter: "drop-shadow(0 0 20px rgba(120, 190, 230, 0.3))" }}
         >
           {SIMI.hero.title}
         </motion.h1>
