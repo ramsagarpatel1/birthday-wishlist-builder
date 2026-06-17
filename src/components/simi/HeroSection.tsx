@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FloatingLilies } from "./FloatingLilies";
 import { SIMI } from "@/content/simi";
+import { BirthdayCake } from "./BirthdayCake";
 
 function useCountdown(target: Date) {
   const [now, setNow] = useState(() => Date.now());
@@ -19,7 +20,7 @@ function useCountdown(target: Date) {
 
 export function HeroSection({ onEnter, onLilyTap }: { onEnter: () => void; onLilyTap?: () => void }) {
   const target = new Date(SIMI.birthday);
-  const { d, h, m, s } = useCountdown(target);
+  const { d, h, m, s, done } = useCountdown(target);
   const cells = [
     { v: d, l: "days" },
     { v: h, l: "hrs" },
@@ -56,7 +57,17 @@ export function HeroSection({ onEnter, onLilyTap }: { onEnter: () => void; onLil
           {SIMI.hero.subtitle}
         </motion.p>
 
-        <motion.div
+        {done ? (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="mt-8"
+          >
+            <BirthdayCake />
+          </motion.div>
+        ) : (
+          <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
@@ -72,7 +83,8 @@ export function HeroSection({ onEnter, onLilyTap }: { onEnter: () => void; onLil
               </div>
             </div>
           ))}
-        </motion.div>
+          </motion.div>
+        )}
 
         <motion.button
           initial={{ opacity: 0, y: 10 }}
@@ -83,7 +95,7 @@ export function HeroSection({ onEnter, onLilyTap }: { onEnter: () => void; onLil
           onClick={onEnter}
           className="mt-10 inline-flex items-center gap-2 rounded-full px-7 py-3 sm:px-9 sm:py-4 bg-gradient-to-r from-[var(--sky-deep)] to-[var(--blush)] text-white font-fredoka text-base sm:text-lg shadow-xl shadow-[var(--sky-deep)]/30"
         >
-          Enter Journey →
+          {done ? "Continue the journey →" : "Enter Journey →"}
         </motion.button>
       </div>
     </section>
