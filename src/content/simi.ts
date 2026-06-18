@@ -5,7 +5,7 @@
 
 export const SIMI = {
   // 🎂 Birthday (YYYY-MM-DD)
-  birthday: "2026-06-26T00:00:00",
+  birthday: "2026-06-19T00:37:00",
 
   hero: {
     title: "Happy Birthday Simi 🌸",
@@ -44,7 +44,7 @@ export const SIMI = {
 
   // Section 5 — Timeline
   timeline: [
-    { date: "Date 1", memory: "Memory placeholder", comment: "My little note about this day." },
+    { date: "20-April-2025", memory: "", comment: "My little note about this day." },
     { date: "Date 2", memory: "Memory placeholder", comment: "My little note about this day." },
     { date: "Date 3", memory: "Memory placeholder", comment: "My little note about this day." },
     { date: "Date 4", memory: "Memory placeholder", comment: "My little note about this day." },
