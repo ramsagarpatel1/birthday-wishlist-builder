@@ -14,11 +14,11 @@ export const SIMI = {
 
   // Section 2 — Who She Is
   simi: [
-    { emoji: "🌸", title: "Nature Lover", text: "You once sent me a photo of a heart-shaped plant, just because you thought I'd smile. You grow pink Barbados lilies like they're family. And yes, I know about the plant you borrowed without asking 🌱 — that's how I know your love for nature isn't just a hobby, it's who you are." },
     { emoji: "🎨", title: "Artist & Creator", text: "You paint everything - mandalas, figures, candle frames, even a little owl pot hanging by your window. But the one that stayed with me was your Radha-Krishna painting. There's something about the way you painted it that felt like it came from somewhere really deep inside you" },
     { emoji: "🎵", title: "Music Lover", text: "It started with Chanakya. Then the next day, Die With a Smile. That's how music works between us - one song leads to another. But nothing compared to the day you sent me your own voice singing 'chale hi jaana hai, nazar chura ke... kyu thami thi meri kalai' — that voice note changed everything. 💙" },
     { emoji: "💙", title: "Blue Soul", text: "blue is your favourite colour and I think the universe chose it for you on purpose. You're an overthinker because you care too much, an emotional soul, and the most understanding person I know - all at once. Chulbuli on the outside, deeply feeling on the inside. That's you, Simi. Endless like the sky. 💙" },
     { emoji: "🌱", title: "Plant Mom", text: "You talk to your plants like they're family. You worry when they don't grow. You have definitely relocated a few from their original homes 🌱😂 And once, you sent me a photo of a heart shaped plant and said 'le lo dil' — sarcastically, of course. But Simi, I think I actually did. 💙" },
+    { emoji: "🍵", title: "Gossip Queen", text: "Aaj pata hai kya hua' — four words that mean a story is coming, and I better drop everything. Friends, family, college, random strangers — nothing escapes you. Like the time mamu told you to drink beer or whisky 😂 You don't just share gossip, Simi. You perform it." },
   ],
 
   // Section 3 — 10 Reasons (edit each line)
