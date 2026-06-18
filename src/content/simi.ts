@@ -28,11 +28,6 @@ export const SIMI = {
     "Reason 3 — placeholder",
     "Reason 4 — placeholder",
     "Reason 5 — placeholder",
-    "Reason 6 — placeholder",
-    "Reason 7 — placeholder",
-    "Reason 8 — placeholder",
-    "Reason 9 — placeholder",
-    "Reason 10 — placeholder",
   ],
 
   // Section 4 — The Day I Realized
