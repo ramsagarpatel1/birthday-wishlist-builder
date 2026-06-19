@@ -56,7 +56,7 @@ export const SIMI = {
       { src: "", caption: "Painting 1", comment: "What this painting means to me." },
     ],
     flowers: [
-      { src: "", caption: "Lilies", comment: "The flower of you." },
+      { src: "https://drive.google.com/file/d/1u9rds7I_1YReljQFpEo9cNdOj-reS_BY/view?usp=drive_link", caption: "Lilies", comment: "The flower of you." },
     ],
     favorites: [
       { src: "", caption: "Favorite memory", comment: "Why this one matters." },
