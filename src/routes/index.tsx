@@ -11,7 +11,6 @@ import { MusicRoom } from "@/components/simi/MusicRoom";
 import { HerVoice } from "@/components/simi/HerVoice";
 import { GiftShelf } from "@/components/simi/GiftShelf";
 import { Affirmations } from "@/components/simi/Affirmations";
-import { BirthdayLetter } from "@/components/simi/BirthdayLetter";
 import { FinalSurprise } from "@/components/simi/FinalSurprise";
 import { EasterEggs } from "@/components/simi/EasterEggs";
 import { ThemeToggle } from "@/components/simi/ThemeToggle";
@@ -54,7 +53,6 @@ function Index() {
         <HerVoice />
         <GiftShelf />
         <Affirmations />
-        <BirthdayLetter />
         <FinalSurprise />
       </div>
 
