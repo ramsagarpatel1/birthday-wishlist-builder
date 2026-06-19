@@ -149,4 +149,59 @@ this works out of the box.
 
 ---
 
+## ✂️ Removing a section
+
+Every section on the page is a self-contained component rendered inside
+`src/routes/index.tsx`. Removing one is a two-line edit — no other files
+need to change.
+
+### Step-by-step
+
+1. **Open** `src/routes/index.tsx`.
+2. **Find the section** you want to remove inside the `<div ref={journeyRef}>` block. Each section is a single JSX tag, for example:
+   ```tsx
+   <TimelineSection />
+   ```
+3. **Delete that line.**
+4. **Delete the matching `import`** at the top of the same file, for example:
+   ```tsx
+   import { TimelineSection } from "@/components/simi/TimelineSection";
+   ```
+   (If you skip this, the build will warn about an unused import but still work.)
+5. **Save the file.** The dev server hot-reloads instantly. For production, run `bun run build` and redeploy.
+
+### Current sections (in render order)
+
+| # | Component             | What it is                          |
+|---|-----------------------|-------------------------------------|
+| 1 | `HeroSection`         | Cover + countdown + birthday cake   |
+| 2 | `SimiSection`         | "Who is Simi" intro                 |
+| 3 | `ReasonsStack`        | Reasons-I-love-you stack            |
+| 4 | `RealizationSection`  | Emotional realization beat          |
+| 5 | `TimelineSection`     | Our timeline / milestones           |
+| 6 | `PhotoMemories`       | Photo gallery                       |
+| 7 | `MessageVault`        | Tap-to-reveal messages              |
+| 8 | `MusicRoom`           | Songs / playlist                    |
+| 9 | `HerVoice`            | Audio clips                         |
+|10 | `GiftShelf`           | Virtual gifts                       |
+|11 | `Affirmations`        | Affirmation cards                   |
+|12 | `FinalSurprise`       | Sealed envelope + letter (closable) |
+
+> The Hero section (`<HeroSection />`) sits outside the journey wrapper. Removing it is possible but not recommended — the countdown, cake, and "enter" scroll trigger live there.
+
+### Removing a section permanently
+
+If you also want to delete the component file from disk:
+
+1. Remove the line and import as above.
+2. Delete `src/components/simi/<ComponentName>.tsx`.
+3. (Optional) Delete its content entry inside `src/content/simi.ts` if it had one.
+4. Run `bun run build` to confirm nothing else references it.
+
+### Re-adding a section later
+
+Add the import back and drop the `<ComponentName />` tag wherever you want it inside `<div ref={journeyRef}>`. Order on the page = order in the JSX.
+
+---
+
 Made with 💙 for Simi.

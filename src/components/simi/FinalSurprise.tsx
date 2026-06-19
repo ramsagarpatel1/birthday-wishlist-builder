@@ -24,6 +24,8 @@ export function FinalSurprise() {
     }, 700);
   };
 
+  const close = () => setOpened(false);
+
   return (
     <SectionShell eyebrow={SIMI.final.teaser} title="One Last Thing…">
       <div className="relative">
@@ -127,6 +129,16 @@ export function FinalSurprise() {
                 >
                   happy birthday, simi 🌸
                 </motion.p>
+                <motion.button
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 2.2 }}
+                  onClick={close}
+                  className="mt-8 inline-flex items-center gap-2 rounded-full border border-[var(--sky)]/40 bg-white/70 px-5 py-2 text-sm font-medium text-[var(--sky-deep)] shadow-sm backdrop-blur transition hover:bg-white hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--sky)]"
+                  aria-label="Close the letter"
+                >
+                  ✿ Close letter
+                </motion.button>
               </motion.div>
             )}
           </AnimatePresence>
