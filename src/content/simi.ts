@@ -2,7 +2,7 @@
 // 💙 Simi's Birthday Content - edit anything below to update the site.
 // No code changes needed. Just edit text, dates, URLs, etc.
 // ============================================================
-
+import Lily from "@/assets/Lily-1.jpg";
 export const SIMI = {
   // 🎂 Birthday (YYYY-MM-DD)
   birthday: "2026-06-26T00:00:00",
@@ -56,7 +56,7 @@ export const SIMI = {
       { src: "", caption: "Painting 1", comment: "What this painting means to me." },
     ],
     flowers: [
-      { src: "https://drive.google.com/file/d/1u9rds7I_1YReljQFpEo9cNdOj-reS_BY/view?usp=drive_link", caption: "Lilies", comment: "The flower of you." },
+      { src: Lily, caption: "Lilies", comment: "The flower of you." },
     ],
     favorites: [
       { src: "", caption: "Favorite memory", comment: "Why this one matters." },
