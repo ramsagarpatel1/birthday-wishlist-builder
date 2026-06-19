@@ -52,7 +52,6 @@ function Index() {
         <MessageVault />
         <MusicRoom />
         <HerVoice />
-        <MemoryBox />
         <GiftShelf />
         <Affirmations />
         <BirthdayLetter />
