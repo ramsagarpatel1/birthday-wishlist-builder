@@ -23,10 +23,10 @@ export const SIMI = {
 
   // Section 3 - 10 Reasons (edit each line)
   reasons: [
-    "Beautiful 🌸 - Your hair, your eyes, your entire aura - you are beautiful in every sense of the word. Not just the way you look, but the way you carry yourself. 💙",
     "Caring 💙 - Every day without fail - 'kaisa gaya din, kaise ho' - you check on me like it's the most natural thing in the world. It is small but Simi, it means the world to me. 💙",
     "Giving 🎁 - You give without keeping count - your time, your attention, your words. You never make me feel like I'm too much or too little. That kind of giving is rare. 💙",
     "Gentle 🕊️ - The way you react, the way you speak - there is a softness in you that makes everything feel safe. You never hurt with your words, even when you easily could. 💙",
+    "Beautiful 🌸 - Your hair, your eyes, your entire aura - you are beautiful in every sense of the word. Not just the way you look, but the way you carry yourself. 💙",
     "Intelligent 🧠 - You know your biology, your art, your music - but my favourite was the day you researched panda mating habits and explained it to me like a full documentary 😂 Brilliant AND hilarious. Only you, Simi. 💙",
   ],
 
@@ -34,7 +34,7 @@ export const SIMI = {
   realization: {
     title: "The Day I Realized",
     story:
-      "The day I realized you were special… [It was 1am. Your nanu was out for a wedding, and you were alone on the ground floor - and you called me, just like that. We talked about random silly things, then somehow we wandered into our pasts. You never forced me to share. You just listened. And when I did open up, you never brought it up again - not once. Except for one thing. Recharge. 😂 You found that and you kept it forever. I woke up the next morning and something had shifted. I just knew - this one is different. This one is Simi. 💙].",
+      "The day I realized you were special…It was 1am. Your nanu was out for a wedding, and you were alone on the ground floor - and you called me, just like that. We talked about random silly things, then somehow we wandered into our pasts. You never forced me to share. You just listened. And when I did open up, you never brought it up again - not once. Except for one thing. Recharge. 😂 You found that and you kept it forever. I woke up the next morning and something had shifted. I just knew - this one is different. This one is Simi. 💙.",
   },
 
   // Section 5 - Timeline
