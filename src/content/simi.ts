@@ -2,7 +2,37 @@
 // 💙 Simi's Birthday Content - edit anything below to update the site.
 // No code changes needed. Just edit text, dates, URLs, etc.
 // ============================================================
-import Lily from "@/assets/Lily-1.jpg";
+// Lily imports
+import Lily1 from "@/assets/Lily-1.jpg";
+import Lily2 from "@/assets/Lily-2.jpg";
+import Lily3 from "@/assets/Lily3.jpg";
+import Lily4 from "@/assets/Lily-4.jpg";
+import Lily5 from "@/assets/Lily-5.jpg";
+
+// Flower imports
+import flower1 from "@/assets/flower1.jpg";
+import flower2 from "@/assets/flower2.jpg";
+import flower3 from "@/assets/flower3.jpg";
+import flower4 from "@/assets/flower4.jpg";
+import flower5 from "@/assets/flower5.jpg";
+import flower6 from "@/assets/flower6.jpg";
+import Flower7 from "@/assets/Flower7.jpg";
+
+// Her photos imports
+import her1 from "@/assets/her1.jpg";
+import her3 from "@/assets/her3.jpg";
+import her4 from "@/assets/her4.jpg";
+import her5 from "@/assets/her5.jpg";
+import her6 from "@/assets/her6.jpg";
+import her7 from "@/assets/her7.jpg";
+import her8 from "@/assets/her8.jpg";
+import her9 from "@/assets/her9.jpg";
+
+// Painting imports
+import painting1 from "@/assets/painting1.jpg";
+import painting2 from "@/assets/painting2.jpg";
+import painting3 from "@/assets/painting3.jpg";
+
 export const SIMI = {
   // 🎂 Birthday (YYYY-MM-DD)
   birthday: "2026-06-26T00:00:00",
