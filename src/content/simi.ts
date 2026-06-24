@@ -33,6 +33,8 @@ import painting1 from "@/assets/painting1.jpg";
 import painting2 from "@/assets/painting2.jpg";
 import painting3 from "@/assets/painting3.jpg";
 
+import herVoice from "@/assets/audio/her-voice.ogg";
+
 export const SIMI = {
   // 🎂 Birthday (YYYY-MM-DD)
   birthday: "2026-06-26T00:00:00",
@@ -90,8 +92,8 @@ export const SIMI = {
     ],
     paintings: [
       { src: painting1, caption: "The Owl Planter 🦉", comment: "You painted owl eyes on a clay pot and hung it by your window. That's not a hobby, that's magic." },
-      { src: painting2, caption: "Diwali by her hands 🪔", comment: "Rangoli, marigolds, diyas — you didn't just decorate your home, you lit it up from the inside." },
-      { src: painting3, caption: "The Artist & Her World 🎨", comment: "Mandalas, candle frames, Radha-Krishna — all made by your hands. I was speechless the first time I saw this." },
+      { src: painting2, caption: "Diwali by your hands 🪔", comment: "Rangoli, marigolds, diyas — you didn't just decorate your home, you lit it up from the inside." },
+      { src: painting3, caption: "The Artist & your World 🎨", comment: "Mandalas, candle frames, Radha-Krishna — all made by your hands. I was speechless the first time I saw this." },
     ],
     flowers: [
       { src: flower1, caption: "Heart of Green 🌿", comment: "You spotted the heart shape in this plant and sent it to me. 'Le lo dil' — sarcastically, of course. I did though. 💙" },
@@ -112,28 +114,143 @@ export const SIMI = {
     ],
   },
 
-  // Section 7 - Vault of Messages
-  vault: [
-    { message: "First message placeholder.", date: "Date", comment: "Why I kept this." },
-    { message: "Second message placeholder.", date: "Date", comment: "Why I kept this." },
-    { message: "Third message placeholder.", date: "Date", comment: "Why I kept this." },
-  ],
+// Section 7 - Vault of Messages
+vault: [
+  {
+    message: `Hi Simi,
 
-  // Section 8 - Music Room
-  music: {
-    playlist: [
-      { title: "Song Title", artist: "Artist", spotify: "", note: "Why this one." },
-      { title: "Song Title", artist: "Artist", spotify: "", note: "Why this one." },
-    ],
-    remindMe: [
-      { title: "Reminds me of you", artist: "Artist", spotify: "", note: "The lyric that does it." },
-    ],
+I am writing this message to tell you my feelings about you. While writing this message, I am very nervous and also afraid. I don't know how you will feel after reading this message, but I have to say it. I don't want to regret it my whole life.
+
+I really like you. From the first time I saw you, I fell in love with you, but I never had the courage to say it. But if I don't say it now, I will regret it for the rest of my life.
+
+I have seen you in Pinky di's WhatsApp status, and every time I see you, I feel something. I don't know how to explain it, but it makes my feelings for you even stronger.
+
+I have told you what I feel from my heart. Now I just want to know what you feel about me. Whatever your answer is, I will respect it.
+
+I also request you to keep this message to yourself only, because of this, I could lose my best friend and his family's trust.`,
+    date: "20 April 2025",
+    comment: "The message that started everything. I rewrote it 100 times before sending. 💙"
   },
+  {
+    message: `In pink kurti, she shines so bright,
+A vision of beauty, a wondrous sight.
+The color of love, of joy and delight,
+She radiates warmth, and makes everything right.
 
+Her eyes sparkle like diamonds in the night,
+Her smile can light up the darkest light.
+The kurti hugs her curves, a perfect fit,
+A vision of elegance, a heart that skips a beat.
+
+With every step she takes with grace,
+Her pink kurti flows, a gentle, lovely pace.
+Her beauty is captivating, a treasure to see,
+A gem that shines, a wonder to me.
+
+In this kurti, she's a goddess, divine,
+A beauty to behold, a heart that's mine.
+So here's to you, in your pink kurti so fine,
+A vision of loveliness, a heart that's truly mine.`,
+    date: "27 May 2025",
+    comment: "I wrote this for you. Nervous the whole time. 🌸"
+  },
+  {
+    message: `🫂 Ram jbse aaye ho aap na u gave me that mental space jahan mai na bohot khush like sari stupid cheez se bhaag kr yha aa jau....i know u r not going to judge me ever for any reasons.... it's been one year and 20 days...and everyday u unlocked my trust wala levels.....and i just don't want to loose uh ever....or vo hoga hi so better I stay away nd put distanc between us....so mt Remo my 🐏 ...my mind will deny forever but my accepted u ...i really really really love uh....I love every Lil cell of urs.... everything from top to bottom..... I'm madly deeply in love with uh...ahhhhhhhhh love u 😘`,
+    date: "12 May 2026",
+    comment: "I read this a hundred times. Still can't believe you said this. 💙"
+  },
+],
+
+// Section 8 - Music Room
+music: {
+  playlist: [
+    {
+      title: "Chanakya",
+      spotify: "https://open.spotify.com/track/4WZE6JnKn3jacgnaJOTF9T",
+      note: "The first song I shared with you. Everything started here. 🎵"
+    },
+    {
+      title: "Die With A Smile",
+      spotify: "https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe",
+      note: "The second song — I sent this to you the very next day. Lady Gaga & Bruno Mars 💙"
+    },
+    {
+      title: "Tum Prem Ho Reprise",
+      spotify: "https://open.spotify.com/track/52woc4Pad8LfccTrYb6R3S",
+      note: "Tum prem ho, tum preet ho — this one speaks for itself 🌸"
+    },
+    {
+      title: "Itna Na Mujhse Tu Pyar Badha",
+      spotify: "https://open.spotify.com/track/3vLFA2nTU6usnRbYrmVo6f",
+      note: "Talat Mahmood & Lata ji — old gold that hits different every time 💙"
+    },
+    {
+      title: "Nahin Saamne Tu (Instrumental)",
+      spotify: "https://open.spotify.com/track/1a3vNKnKOlkxLg4uZoegRx",
+      note: "A.R. Rahman instrumental — the kind of music that makes you feel everything at once"
+    },
+    {
+      title: "Ahista",
+      spotify: "https://open.spotify.com/track/6vIII4miUMUjCYtluFwbnP",
+      note: "Pankaj Udhas — ahista ahista, dheere dheere 🌸"
+    },
+    {
+      title: "Tum Ko",
+      spotify: "https://open.spotify.com/track/2sf0cFFuJ8CWDft5NX0UR5",
+      note: "From Rockstar — Kavita Krishnamurthy's voice in this is something else entirely"
+    },
+    {
+      title: "Tu Hi Meri Shab Hai",
+      spotify: "https://open.spotify.com/track/1ufeADg0jivKpOFiAv3PYg",
+      note: "KK's voice, late nights, and you — this song fits perfectly 💙"
+    },
+    {
+      title: "Likhe Jo Khat Tujhe",
+      spotify: "https://open.spotify.com/track/0es02Rp0p0WpC4WRBDtM8P",
+      note: "Mohammed Rafi — like a letter written straight from the heart 💌"
+    },
+    {
+      title: "Ehsan Tera Hoga Mujh Par",
+      spotify: "https://open.spotify.com/track/5ro0tzQmZlM6Sgdtq4bGwH",
+      note: "Mohammed Rafi again — because some feelings only he could sing 🌸"
+    },
+    {
+      title: "Tere Bina",
+      spotify: "https://open.spotify.com/track/4FeczSomVWVyU4FW7xDeAI",
+      note: "A.R. Rahman — tere bina main kuch bhi nahi 💙"
+    },
+    {
+      title: "Rehnaa Hai Tere Dil Mein",
+      spotify: "https://open.spotify.com/track/4fyco7GDsNWH0rH4UdxSP3",
+      note: "Sonu Nigam — rehnaa hai tere dil mein. That's it. That's the note. 🌸"
+    },
+    {
+      title: "Main Koi Aisa Geet Gaoon",
+      spotify: "https://open.spotify.com/track/0WBClBemYPJR44H6uIn0kp",
+      note: "From Yes Boss — a song to make you smile, just like you do 😊"
+    },
+    {
+      title: "Achha Ji Main Haari Chalo",
+      spotify: "https://open.spotify.com/track/5ceKyCGIpjceDJhOT9pE7r",
+      note: "Asha Bhosle & Mohammed Rafi — playful, warm, timeless. Just like you 🌸"
+    },
+    {
+      title: "Sawaar Loon",
+      spotify: "https://open.spotify.com/track/29YePgOxuPLfU7uZKxKf6w",
+      note: "Monali Thakur from Lootera — sawaar loon tujhpe main, teri hi ho jaaun 💙"
+    },
+  ],
+  remindMe: [
+    {
+      title: "Chanakya",
+      spotify: "https://open.spotify.com/track/4WZE6JnKn3jacgnaJOTF9T",
+      note: "The first song I shared with you. The one that started everything. 🎵"
+    },
+  ],
+},
   // Section 9 - Her Voice
   voice: {
-    audioSrc: "", // mp3 URL of the song she sang
-    lyrics: "Lyrics go here…\nLine two…\nLine three…",
+    audioSrc: herVoice, // mp3 URL of the song she sang
     note: "When you sang this, the room got quieter - and so did my heart.",
   },
 
