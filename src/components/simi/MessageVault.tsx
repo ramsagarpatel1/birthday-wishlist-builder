@@ -11,7 +11,6 @@ useEffect(() => {
 setOut("");
 let i = 0;
 
-```
 const id = setInterval(() => {
   i++;
   setOut(text.slice(0, i));
@@ -19,7 +18,7 @@ const id = setInterval(() => {
 }, speed);
 
 return () => clearInterval(id);
-```
+
 
 }, [text, speed]);
 
@@ -70,7 +69,6 @@ transition={{ duration: 0.4 }}
 className="glass-strong p-6 sm:p-8"
 > <div className="flex items-center justify-between text-xs text-[var(--ink)]/55 mb-3"> <span>Memory {i + 1} / {SIMI.vault.length}</span> <span>{msg.date}</span> </div>
 
-```
           <p className="font-display text-lg sm:text-xl text-[var(--ink)] min-h-[80px]">
             {typed}
             {/* COMMENTED: blinking cursor removed */}
@@ -119,7 +117,6 @@ className="glass-strong p-6 sm:p-8"
       >
         ← Previous
       </button>
-
       <button
         onClick={() =>
           setI((p) => (p + 1) % SIMI.vault.length)
@@ -129,7 +126,6 @@ className="glass-strong p-6 sm:p-8"
         Next →
       </button>
     </div>
-
     {/* COMMENTED: Saved Messages section removed */}
     {/*
     {saved.length > 0 && (
@@ -149,7 +145,6 @@ className="glass-strong p-6 sm:p-8"
     */}
   </div>
 </SectionShell>
-```
 
 );
 }
