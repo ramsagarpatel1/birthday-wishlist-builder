@@ -21,7 +21,7 @@ export const SIMI = {
     { emoji: "🍵", title: "Gossip Queen", text: "Aaj pata hai kya hua' - four words that mean a story is coming, and I better drop everything. Friends, family, college, random strangers - nothing escapes you. Like the time mamu told you to drink beer or whisky 😂 You don't just share gossip, Simi. You perform it. 💙" },
   ],
 
-  // Section 3 - 10 Reasons (edit each line)
+  // Section 3 - 5 Reasons (edit each line)
   reasons: [
     "Caring 💙 - Every day without fail - 'kaisa gaya din, kaise ho' - you check on me like it's the most natural thing in the world. It is small but Simi, it means the world to me. 💙",
     "Giving 🎁 - You give without keeping count - your time, your attention, your words. You never make me feel like I'm too much or too little. That kind of giving is rare. 💙",
@@ -34,7 +34,7 @@ export const SIMI = {
   realization: {
     title: "The Day I Realized",
     story:
-      "The day I realized you were special…It was 1am. Your nanu was out for a wedding, and you were alone on the ground floor - and you called me, just like that. We talked about random silly things, then somehow we wandered into our pasts. You never forced me to share. You just listened. And when I did open up, you never brought it up again - not once. Except for one thing. Recharge. 😂 You found that and you kept it forever. I woke up the next morning and something had shifted. I just knew - this one is different. This one is Simi. 💙.",
+      "The day I realized you were special…It was 1 am. Your nanu was out for a wedding, and you were alone on the ground floor - and you called me, just like that. We talked about random silly things, then somehow we wandered into our pasts. You never forced me to share. You just listened. And when I did open up, you never brought it up again - not once. Except for one thing. Recharge. 😂 You found that and you kept it forever. I woke up the next morning and something had shifted. I just knew - this one is different. This one is Simi. 💙.",
   },
 
   // Section 5 - Timeline

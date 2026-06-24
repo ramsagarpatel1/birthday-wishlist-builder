@@ -54,7 +54,7 @@ export function PhotoMemories() {
         <DialogContent className="max-w-lg p-0 overflow-hidden glass-strong border-0">
           {item && (
             <div className="p-6">
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-[var(--sky-glow)] to-[var(--blush)]/40 flex items-center justify-center">
+              <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-[var(--sky-glow)] to-[var(--blush)]/40 flex items-center justify-center">
                 {item.src ? (
                   <img src={item.src} alt={item.caption} className="h-full w-full object-cover" />
                 ) : (

@@ -17,7 +17,7 @@ Open `src/content/simi.ts` and update the values you care about.
 | Birthday date / countdown target | `birthday` (format: `YYYY-MM-DDTHH:mm:ss`) |
 | Hero title & subtitle            | `hero.title`, `hero.subtitle`   |
 | "Who She Is" cards               | `simi[]`                        |
-| 10 reasons                       | `reasons[]`                     |
+| 5 reasons                       | `reasons[]`                     |
 | "The Day I Realized" story       | `realization`                   |
 | Timeline of memories             | `timeline[]`                    |
 | Songs / playlist                 | `songs[]`                       |
