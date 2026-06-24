@@ -77,19 +77,38 @@ export const SIMI = {
   ],
 
   // Section 6 - Photo Memories (replace src with real image paths/URLs)
-  photos: {
+ photos: {
     her: [
-      { src: "", caption: "Her photo 1", comment: "Personal note." },
-      { src: "", caption: "Her photo 2", comment: "Personal note." },
+      { src: her1, caption: "That smile 💙", comment: "The way you smile like the whole world is fine — I could look at this forever." },
+      { src: her3, caption: "Shopping day ❤️", comment: "You walked in and somehow made even a store look beautiful." },
+      { src: her4, caption: "Under the stars ✨", comment: "Fairy lights, a bench, and you — this photo has no right to be this perfect." },
+      { src: her5, caption: "In a saree 🌸", comment: "You in a saree is genuinely unfair to everyone else in the room." },
+      { src: her6, caption: "Pink & glowing 💗", comment: "That braid, that smile, that energy — this is my favourite version of you." },
+      { src: her7, caption: "Evening glow ✨", comment: "You weren't even trying and still looked like this. Unfair, honestly." },
+      { src: her8, caption: "White lehenga 🤍", comment: "I genuinely had no words when I saw this. Still don't." },
+      { src: her9, caption: "Kitten moment 🐱", comment: "This is you — gentle, warm, and drawn to every little thing that needs love." },
     ],
     paintings: [
-      { src: "", caption: "Painting 1", comment: "What this painting means to me." },
+      { src: painting1, caption: "The Owl Planter 🦉", comment: "You painted owl eyes on a clay pot and hung it by your window. That's not a hobby, that's magic." },
+      { src: painting2, caption: "Diwali by her hands 🪔", comment: "Rangoli, marigolds, diyas — you didn't just decorate your home, you lit it up from the inside." },
+      { src: painting3, caption: "The Artist & Her World 🎨", comment: "Mandalas, candle frames, Radha-Krishna — all made by your hands. I was speechless the first time I saw this." },
     ],
     flowers: [
-      { src: Lily, caption: "Lilies", comment: "The flower of you." },
+      { src: flower1, caption: "Heart of Green 🌿", comment: "You spotted the heart shape in this plant and sent it to me. 'Le lo dil' — sarcastically, of course. I did though. 💙" },
+      { src: flower2, caption: "Pink Rose 🌹", comment: "You held it like it was the most precious thing. Because to you, it was." },
+      { src: flower3, caption: "Blue Hydrangeas 💜", comment: "Sky blue flowers for a sky blue soul. You'd have stolen these too, I know it 😄" },
+      { src: flower4, caption: "Her Garden 🌱", comment: "Look at this garden. Every single pot has a story. This is what love looks like." },
+      { src: flower5, caption: "Pink Barbados Lily 🌸", comment: "The one you grew yourself. I remember when you first showed me — I was so proud of you." },
+      { src: flower6, caption: "Spider Lily 🌿", comment: "Delicate, graceful, and one of a kind. Just like you." },
+      { src: Flower7, caption: "Coral Amaryllis 🌺", comment: "The way you held these — like they were yours to love. Because they were." },
+      { src: Lily1, caption: "Pink Lily 🌸", comment: "Your favourite. Two blooms side by side — just like us. 💙" },
+      { src: Lily2, caption: "Lily & Jasmine 🌸🤍", comment: "You picked these and held them together. That's you — finding beauty and combining it." },
+      { src: Lily3, caption: "Spider Lily in Rain 🌧️", comment: "Even in the rain, it bloomed. I wonder who it learned that from." },
+      { src: Lily4, caption: "White Spider Lily 🤍", comment: "Pure, graceful, and quietly stunning. My favourite flower photo you've shared." },
+      { src: Lily5, caption: "Barbados Lily 🌸", comment: "Pink Barbados lily — grew it, loved it, shared it. That's your whole personality in one photo." },
     ],
     favorites: [
-      { src: "", caption: "Favorite memory", comment: "Why this one matters." },
+      { src: painting3, caption: "Her & Her Art 🎨", comment: "This is the photo that says everything — she creates her own world, and it is beautiful." },
     ],
   },
 
