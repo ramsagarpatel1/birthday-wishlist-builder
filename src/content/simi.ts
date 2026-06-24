@@ -254,15 +254,6 @@ music: {
     note: "When you sang this, the room got quieter - and so did my heart.",
   },
 
-  // Section 10 - Memory Box categories
-  memoryBox: {
-    flowers: ["A lily I saw and thought of you."],
-    art: ["The painting you showed me first."],
-    music: ["The song that played when we met."],
-    messages: ["A message I'll never delete."],
-    photos: ["A picture I keep coming back to."],
-  },
-
   // Section 11 - Gifts I Would Give You
   gifts: [
     { emoji: "🍫", name: "5 Star Chocolate", note: "Sweet, simple, and the best - like you." },
@@ -283,28 +274,45 @@ music: {
     "The sky is jealous of your blue.",
   ],
 
-  // Section 13 - Easter eggs (hidden messages)
+  // Section 12 - Easter eggs (hidden messages)
   easterEggs: {
     lilyTap: "🌸 You found a secret lily. Here's a whisper: you're loved, more than you know.",
     keyword: "💙 SIMI - the secret word. The truth is: every blue thing reminds me of you.",
     floatingHeart: "❤️ Caught me. I think about you more than I should admit.",
   },
 
-  // Section 14 - Birthday Letter
-  letter: `Dear Simi,
+final: {
+  thanks: "Thank you for being the reason I smile without realising it.",
+  teaser: "One last thing, Simi…",
+  message: `Happy Birthday, Simi. 🌸
 
-It's your birthday - and somehow it feels like mine too, because I get to celebrate you today.
+22 saal. Aur main sochta hoon — kitni baar tumne apne aap ko kisi ke liye chota samjha hoga. Kitni baar tumne apni feelings ko andar hi rakh liya hoga, kyunki tumhe laga hoga ki koi samjhega nahi.
 
-[Replace this whole letter with your own words. Talk about the year, the little moments, the ones only the two of you remember.]
+Main samjhta hoon.
 
-Happy birthday, lily girl.
+Tumse pehli baar baat ki thi toh mujhe pata nahi tha ki ek din main tumhare liye yeh sab karunga. Lekin ek raat — 1 baje, jab tumhare nanu shaadi mein gaye the, aur tum ground floor pe akele the — tumne call kiya. Aur hum 3 ghante baat karte rahe. Silly cheezein, serious cheezein, purani cheezein. Tumne mujhse meri past ke baare mein poocha — lekin force nahi kiya. Aur jab maine bataya, tumne kabhi dobara nahi uthaya. Sirf ek cheez uthaayi — recharge. 😂
 
-- Yours`,
+Us raat ke baad, subah uthke, mujhe pata chala — yeh wali hain.
 
-  // Section 15 - Final
-  final: {
-    thanks: "Thank you for being part of my life.",
-    teaser: "One last thing…",
-    message: "Whatever you wish for today, I hope it finds you. And if it doesn't - I hope I do.",
-  },
+Tumhare haath mein ek pink lily hoti hai aur lagta hai duniya sahi hai. Tum ek heart-shaped plant ka photo bhejti ho aur likhti ho "le lo dil" — sarcastically. Simi, main le chuka hoon. Bahut pehle.
+
+Tum paintings karti ho jo walls ko zinda kar deti hain. Tum plants uthaa ke le aati ho kyunki unse pyaar ho jaata hai — ek baar nahi, kai baar. 😄 Tum "aaj pata hai kya hua" se har gossip shuru karti ho aur main hamesha sun'ta hoon — kyunki tum sunaati bahut achha ho. Tum biology research karti ho topics pe jo… hum yahan nahi likhenge 😂 — lekin bhai, mujhe pata tha tum smart ho, yeh prove ho gaya.
+
+Tumne ek baar mujhe apni awaaz mein gaake bheja tha — "chale hi jaana hai, nazar chura ke… kyu thami thi meri kalai." Main jaanta hoon tune casually bheja hoga. Lekin maine wo voice note abhi tak nahi delete ki.
+
+Aur phir ek din — tumne likha. "My mind will deny forever but my heart accepted you." Main us message ko teen baar, chaar baar, kai baar padha. Mujhe pata tha tum kya feel karti ho — lekin yeh dekhna alag tha. Bahut alag.
+
+Tum overthinker ho. Emotional ho. Aur sabse zyada — understanding ho. Chulbuli ho, natkhat ho, baten karne wali ho. Sky blue tumhara favourite colour hai — aur main sochta hoon, haan, sahi hai. Tum bhi waise hi ho. Endless.
+
+Aaj tumhara birthday hai. 22 saal ke ho gayi ho. Aur main chahta hoon ki aaj ke din tum sirf ek cheez feel karo —
+
+Ki koi hai jo tumhe poora jaanta hai. Tumhari silly baatein, tumhara dard, tumhari art, tumhare plants, tumhari awaaz, tumhara recharge wala secret 😂 — sab. Aur phir bhi, sab jaante hue — ruka hua hai.
+
+Janam din mubarak ho, Simi. 🌸
+
+Khush raho. Khilte raho. Aur haan —
+Apne plants ka dhyan rakhna. 🌱
+
+— Ram 💙`,
+},
 };
