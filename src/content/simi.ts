@@ -88,7 +88,7 @@ export const SIMI = {
       { src: her7, caption: "Evening glow ✨", comment: "You weren't even trying and still looked like this. Unfair, honestly." },
       { src: her8, caption: "White lehenga 🤍", comment: "I genuinely had no words when I saw this. Still don't." },
       { src: her9, caption: "Kitten moment 🐱", comment: "This is you — gentle, warm, and drawn to every little thing that needs love." },
-      { src: her5, caption: "Not fair 😤", comment: "You can't just wear a saree, smile like that, share a photo, and expect people to act normal." },
+      { src: her6, caption: "Not fair 😤", comment: "You can't just wear a saree, smile like that, share a photo, and expect people to act normal." },
     ],
     paintings: [
       { src: painting1, caption: "The Owl Planter 🦉", comment: "You painted owl eyes on a clay pot and hung it by your window. That's not a hobby, that's magic." },
