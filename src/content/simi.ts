@@ -58,8 +58,8 @@ export const SIMI = {
     "Caring 💙 - Every day without fail - 'kaisa gaya din, kaise ho' - you check on me like it's the most natural thing in the world. It is small but Simi, it means the world to me. 💙",
     "Giving 🎁 - You give without keeping count - your time, your attention, your words. You never make me feel like I'm too much or too little. That kind of giving is rare. 💙",
     "Gentle 🕊️ - The way you react, the way you speak - there is a softness in you that makes everything feel safe. You never hurt with your words, even when you easily could. 💙",
+    "Intelligent 🧠 - You know your biology, art, and music, but my favourite was the day you explained panda mating habits like a full documentary 😂 Brilliant, hilarious, and very Simi. 💙",
     "Beautiful 🌸 - Your hair, your eyes, your entire aura - you are beautiful in every sense of the word. Not just the way you look, but the way you carry yourself. 💙",
-    "Intelligent 🧠 - You know your biology, your art, your music - but my favourite was the day you researched panda mating habits and explained it to me like a full documentary 😂 Brilliant AND hilarious. Only you, Simi. 💙",
   ],
 
   // Section 4 - The Day I Realized
@@ -81,14 +81,14 @@ export const SIMI = {
   // Section 6 - Photo Memories (replace src with real image paths/URLs)
  photos: {
     her: [
-      { src: her1, caption: "That smile 💙", comment: "The way you smile like the whole world is fine — I could look at this forever." },
-      { src: her3, caption: "Shopping day ❤️", comment: "You walked in and somehow made even a store look beautiful." },
-      { src: her4, caption: "Under the stars ✨", comment: "Fairy lights, a bench, and you — this photo has no right to be this perfect." },
-      { src: her5, caption: "In a saree 🌸", comment: "You in a saree is genuinely unfair to everyone else in the room." },
-      { src: her6, caption: "Pink & glowing 💗", comment: "That braid, that smile, that energy — this is my favourite version of you." },
+      { src: her1, caption: "That smile 💙", comment: "The way you smile like the whole world is fine - I could look at this forever." },
+      { src: her3, caption: "Under the stars ✨", comment: "Fairy lights, a bench, and you — this photo has no right to be this perfect." },
+      { src: her4, caption: "In a saree 🌸", comment: "You in a saree is genuinely unfair to everyone else in the room." },
+      { src: her5, caption: "Pink & glowing 💗", comment: "That braid, that smile, that energy - this is my favourite version of you." },
       { src: her7, caption: "Evening glow ✨", comment: "You weren't even trying and still looked like this. Unfair, honestly." },
       { src: her8, caption: "White lehenga 🤍", comment: "I genuinely had no words when I saw this. Still don't." },
       { src: her9, caption: "Kitten moment 🐱", comment: "This is you — gentle, warm, and drawn to every little thing that needs love." },
+      { src: her5, caption: "Not fair 😤", comment: "You can't just wear a saree, smile like that, share a photo, and expect people to act normal." },
     ],
     paintings: [
       { src: painting1, caption: "The Owl Planter 🦉", comment: "You painted owl eyes on a clay pot and hung it by your window. That's not a hobby, that's magic." },
@@ -96,18 +96,14 @@ export const SIMI = {
       { src: painting3, caption: "The Artist & your World 🎨", comment: "Mandalas, candle frames, Radha-Krishna — all made by your hands. I was speechless the first time I saw this." },
     ],
     flowers: [
-      { src: flower1, caption: "Heart of Green 🌿", comment: "You spotted the heart shape in this plant and sent it to me. 'Le lo dil' — sarcastically, of course. I did though. 💙" },
-      { src: flower2, caption: "Pink Rose 🌹", comment: "You held it like it was the most precious thing. Because to you, it was." },
-      { src: flower3, caption: "Blue Hydrangeas 💜", comment: "Sky blue flowers for a sky blue soul. You'd have stolen these too, I know it 😄" },
-      { src: flower4, caption: "Her Garden 🌱", comment: "Look at this garden. Every single pot has a story. This is what love looks like." },
-      { src: flower5, caption: "Pink Barbados Lily 🌸", comment: "The one you grew yourself. I remember when you first showed me — I was so proud of you." },
-      { src: flower6, caption: "Spider Lily 🌿", comment: "Delicate, graceful, and one of a kind. Just like you." },
-      { src: Flower7, caption: "Coral Amaryllis 🌺", comment: "The way you held these — like they were yours to love. Because they were." },
+      { src: flower5, caption: "Heart of Green 🌿", comment: "You spotted the heart shape in this plant and sent it to me. 'Le lo dil' — sarcastically, of course. I did though. 💙" },
+      { src: flower6, caption: "Pink Rose 🌹", comment: "You held it like it was the most precious thing. Because to you, it was." },
+      { src: Flower7, caption: "Blue Hydrangeas 💜", comment: "Sky blue flowers for a sky blue soul. You'd have stolen these too, I know it 😄" },
       { src: Lily1, caption: "Pink Lily 🌸", comment: "Your favourite. Two blooms side by side — just like us. 💙" },
-      { src: Lily2, caption: "Lily & Jasmine 🌸🤍", comment: "You picked these and held them together. That's you — finding beauty and combining it." },
-      { src: Lily3, caption: "Spider Lily in Rain 🌧️", comment: "Even in the rain, it bloomed. I wonder who it learned that from." },
-      { src: Lily4, caption: "White Spider Lily 🤍", comment: "Pure, graceful, and quietly stunning. My favourite flower photo you've shared." },
-      { src: Lily5, caption: "Barbados Lily 🌸", comment: "Pink Barbados lily — grew it, loved it, shared it. That's your whole personality in one photo." },
+      { src: Lily3, caption: "Lily & Jasmine 🌸🤍", comment: "You picked these and held them together. That's you — finding beauty and combining it." },
+      { src: Lily2, caption: "Spider Lily in Rain 🌧️", comment: "Even in the rain, it bloomed. I wonder who it learned that from." },
+      { src: Lily4, caption: "White Spider Lily 🤍", comment: "Pure, graceful, and quietly stunning." },
+      { src: Lily5, caption: "Barbados Lily 🌸", comment: "Pink Barbados lily - grew it, loved it, shared it. That's your whole personality in one photo." },
     ],
     favorites: [
       { src: painting3, caption: "Her & Her Art 🎨", comment: "This is the photo that says everything — she creates her own world, and it is beautiful." },
@@ -129,7 +125,8 @@ I have told you what I feel from my heart. Now I just want to know what you feel
 
 I also request you to keep this message to yourself only, because of this, I could lose my best friend and his family's trust.`,
     date: "20 April 2025",
-    comment: "The message that started everything. I rewrote it 100 times before sending. 💙"
+    comment: "The message that started everything. I thought about sending it a hundred times before I finally did. 💙"
+
   },
   {
     message: `In pink kurti, she shines so bright,
@@ -152,12 +149,12 @@ A beauty to behold, a heart that's mine.
 So here's to you, in your pink kurti so fine,
 A vision of loveliness, a heart that's truly mine.`,
     date: "27 May 2025",
-    comment: "I wrote this for you. Nervous the whole time. 🌸"
+    comment: "I wrote this for you. Seeing you in that pink kurti made the moment impossible to forget. 🌸"
   },
   {
     message: `🫂 Ram jbse aaye ho aap na u gave me that mental space jahan mai na bohot khush like sari stupid cheez se bhaag kr yha aa jau....i know u r not going to judge me ever for any reasons.... it's been one year and 20 days...and everyday u unlocked my trust wala levels.....and i just don't want to loose uh ever....or vo hoga hi so better I stay away nd put distanc between us....so mt Remo my 🐏 ...my mind will deny forever but my accepted u ...i really really really love uh....I love every Lil cell of urs.... everything from top to bottom..... I'm madly deeply in love with uh...ahhhhhhhhh love u 😘`,
     date: "12 May 2026",
-    comment: "I read this a hundred times. Still can't believe you said this. 💙"
+    comment: "I’ve read this a hundred times, yet it still feels unreal. Out of all my memories, this one holds a special place in my heart. 💙"
   },
 ],
 
@@ -242,9 +239,9 @@ music: {
   ],
   remindMe: [
     {
-      title: "Chanakya",
-      spotify: "https://open.spotify.com/track/4WZE6JnKn3jacgnaJOTF9T",
-      note: "The first song I shared with you. The one that started everything. 🎵"
+      title: "Bahon Me Chale Aao",
+      spotify: "https://open.spotify.com/track/22GilWjcqM8sKWqbyOniDn?si=N8V52hspTbSkc8EzLLs5OQ",
+      note: "Every time I hear this song, I think of you. You sang it so beautifully that it became even more special to me🎵"
     },
   ],
 },
@@ -286,32 +283,29 @@ final: {
   teaser: "One last thing, Simi…",
   message: `Happy Birthday, Simi. 🌸
 
-22 saal. Aur main sochta hoon — kitni baar tumne apne aap ko kisi ke liye chota samjha hoga. Kitni baar tumne apni feelings ko andar hi rakh liya hoga, kyunki tumhe laga hoga ki koi samjhega nahi.
+22 years old now. 🎂
 
-Main samjhta hoon.
+Honestly, jab pehli baar tumse baat ki thi, I never thought ki ek din main tumhare liye itna kuch banaunga.
 
-Tumse pehli baar baat ki thi toh mujhe pata nahi tha ki ek din main tumhare liye yeh sab karunga. Lekin ek raat — 1 baje, jab tumhare nanu shaadi mein gaye the, aur tum ground floor pe akele the — tumne call kiya. Aur hum 3 ghante baat karte rahe. Silly cheezein, serious cheezein, purani cheezein. Tumne mujhse meri past ke baare mein poocha — lekin force nahi kiya. Aur jab maine bataya, tumne kabhi dobara nahi uthaya. Sirf ek cheez uthaayi — recharge. 😂
+But then there was that late-night call. 1 baje se 3 ghante tak baat hui - random things, serious things, life, memories... and somehow us raat ke baad everything felt different.
 
-Us raat ke baad, subah uthke, mujhe pata chala — yeh wali hain.
+Since then, there have been so many little moments. The pink lily. The heart-shaped plant with "le lo dil" 😂. Your paintings. Your endless stories that always start with "aaj pata hai kya hua". Your voice note that I still haven't deleted.
 
-Tumhare haath mein ek pink lily hoti hai aur lagta hai duniya sahi hai. Tum ek heart-shaped plant ka photo bhejti ho aur likhti ho "le lo dil" — sarcastically. Simi, main le chuka hoon. Bahut pehle.
+And then that message:
+"My mind will deny forever but my heart accepted you."
 
-Tum paintings karti ho jo walls ko zinda kar deti hain. Tum plants uthaa ke le aati ho kyunki unse pyaar ho jaata hai — ek baar nahi, kai baar. 😄 Tum "aaj pata hai kya hua" se har gossip shuru karti ho aur main hamesha sun'ta hoon — kyunki tum sunaati bahut achha ho. Tum biology research karti ho topics pe jo… hum yahan nahi likhenge 😂 — lekin bhai, mujhe pata tha tum smart ho, yeh prove ho gaya.
+I don't think you realize how much that meant to me.
 
-Tumne ek baar mujhe apni awaaz mein gaake bheja tha — "chale hi jaana hai, nazar chura ke… kyu thami thi meri kalai." Main jaanta hoon tune casually bheja hoga. Lekin maine wo voice note abhi tak nahi delete ki.
+So today, on your 22nd birthday, I just want you to know this:
 
-Aur phir ek din — tumne likha. "My mind will deny forever but my heart accepted you." Main us message ko teen baar, chaar baar, kai baar padha. Mujhe pata tha tum kya feel karti ho — lekin yeh dekhna alag tha. Bahut alag.
-
-Tum overthinker ho. Emotional ho. Aur sabse zyada — understanding ho. Chulbuli ho, natkhat ho, baten karne wali ho. Sky blue tumhara favourite colour hai — aur main sochta hoon, haan, sahi hai. Tum bhi waise hi ho. Endless.
-
-Aaj tumhara birthday hai. 22 saal ke ho gayi ho. Aur main chahta hoon ki aaj ke din tum sirf ek cheez feel karo —
-
-Ki koi hai jo tumhe poora jaanta hai. Tumhari silly baatein, tumhara dard, tumhari art, tumhare plants, tumhari awaaz, tumhara recharge wala secret 😂 — sab. Aur phir bhi, sab jaante hue — ruka hua hai.
+There is someone who remembers all the little things about you... and still smiles because of them. 💙
 
 Janam din mubarak ho, Simi. 🌸
 
-Khush raho. Khilte raho. Aur haan —
-Apne plants ka dhyan rakhna. 🌱
+Stay happy. Keep blooming. 🌸
+
+And yes... don't forget to take care of your plants.
+They'd probably miss you as much as I would. 🌱
 
 — Ram 💙`,
 },
