@@ -12,7 +12,7 @@ export function ReasonsStack() {
     setI((p) => (p + 1) % SIMI.reasons.length);
   };
   return (
-    <SectionShell eyebrow="10 reasons" title="Why I like you">
+    <SectionShell eyebrow="5 reasons" title="Why I like you">
       <div className="relative mx-auto max-w-xl">
         <div className="relative h-56 sm:h-64">
           <AnimatePresence mode="wait">

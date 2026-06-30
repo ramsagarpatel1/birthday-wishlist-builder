@@ -183,6 +183,7 @@
   }
 }
 
+
 @layer utilities {
   .font-display { font-family: var(--font-display); }
   .font-fredoka { font-family: var(--font-fredoka); }
