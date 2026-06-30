@@ -37,7 +37,7 @@ import herVoice from "@/assets/audio/her-voice.ogg";
 
 export const SIMI = {
   // 🎂 Birthday (YYYY-MM-DD)
-  birthday: "2026-06-26T00:00:00",
+  birthday: "2027-06-26T00:00:00",
 
   hero: {
     title: "Happy Birthday Simi 🌸",
